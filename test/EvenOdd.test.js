@@ -1,10 +1,10 @@
-
-const chai = require('chai');
+import { even_or_odd } from '../EvenOdd.js';
+import chai from 'chai';
 const assert = chai.assert;
 
-function even_or_odd(number) {
-  return number % 2 ? "Odd" : "Even";
-}
+// function even_or_odd(number) {
+//   return number % 2 ? "Odd" : "Even";
+// }
 
 
 describe("Sample tests",() => {

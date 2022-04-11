@@ -6,6 +6,8 @@
   "scripts": {
     "test": "mocha"
     
-  }
+  },
+  "main": "index.js",
+  "type":"module"
  
 }
