@@ -2,8 +2,6 @@
 //   return b ? "true" : "false";
 // }
 
-
-export function booleanToString(b){
-    return b.toString();
-  }
-  
+export function booleanToString(b) {
+  return b.toString();
+}

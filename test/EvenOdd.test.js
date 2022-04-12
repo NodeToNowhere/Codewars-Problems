@@ -7,7 +7,7 @@ const assert = chai.assert;
 // }
 
 
-describe("Sample tests",() => {
+describe("evenOdd tests",() => {
   
   it("2 is even", () => {
     assert.strictEqual(even_or_odd(2), "Even");

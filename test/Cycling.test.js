@@ -1,9 +1,8 @@
 import { litres } from "../Cycling.js";
 import chai from 'chai';
 const assert = chai.assert;
-chai.config.truncateThreshold=0;
 
-describe('Fixed tests', () => {
+describe('Cycling tests', () => {
   it('Tests', () => {
     assert.strictEqual(litres(2), 1, 'should return 1 litre');
     assert.strictEqual(litres(1.4), 0, 'should return 0 litres');

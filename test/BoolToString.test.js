@@ -3,7 +3,7 @@ import chai from 'chai';
 const Test = chai.assert;
 
 
-describe("Solution", () =>{
+describe("Bool To String", () =>{
     it("Fixed Tests", function() {
       Test.strictEqual(booleanToString(true), "true", 'When we pass in true, we want the string "true" as output');
       Test.strictEqual(booleanToString(false), "false", 'When we pass in false, we want the string "false" as output');

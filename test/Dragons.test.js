@@ -1,9 +1,8 @@
-import hero from './Dragons.js';
-const chai = require("chai");
+import { hero } from "../Dragons.js";
 import chai from 'chai';
-chai.config.truncateThreshold=0;
+const assert = chai.assert;
 
-describe('Fixed tests', function() {
+describe('Dragon tests', function() {
   it("Testing for fixed tests", () => {
     assert.strictEqual(hero(10, 5), true);
     assert.strictEqual(hero(7, 4), false);
