@@ -1,4 +1,3 @@
-
 import { summation } from '../summation.js';
 import chai from 'chai';
 const assert = chai.assert;
