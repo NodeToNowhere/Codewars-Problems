@@ -1,4 +1,4 @@
-import { summation } from '../summation.js';
+import { summation } from '../Summation.js';
 import chai from 'chai';
 const assert = chai.assert;
 
