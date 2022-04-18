@@ -1,4 +1,4 @@
-import { TimeToMilli } from "../Milliseconds.js";
+import { TimeToMilli } from "../Problems/Milliseconds.js";
 import chai from "chai";
 const assert = chai.assert;
 describe("Millisecond Tests", () => {

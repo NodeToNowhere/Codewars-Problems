@@ -1,4 +1,4 @@
-import { hero } from "../Dragons.js";
+import { hero } from "../Problems/Dragons.js";
 import chai from 'chai';
 const assert = chai.assert;
 

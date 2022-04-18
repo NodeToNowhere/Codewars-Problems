@@ -1,4 +1,4 @@
-import { booleanToString } from '../BoolToString.js';
+import { booleanToString } from '../Problems/BoolToString.js';
 import chai from 'chai';
 const Test = chai.assert;
 

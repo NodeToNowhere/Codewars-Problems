@@ -1,4 +1,4 @@
-import { paperwork } from "../Schoolwork.js";
+import { paperwork } from "../Problems/Schoolwork.js";
 import chai from "chai";
 const assert = chai.assert;
 

@@ -1,4 +1,4 @@
-import { even_or_odd } from '../EvenOdd.js';
+import { even_or_odd } from '../Problems/EvenOdd.js';
 import chai from 'chai';
 const assert = chai.assert;
 
