@@ -3,18 +3,24 @@
 
 export function countPosNeg(input) {
   let array = [0,0]
-  input.forEach(num => num > 0 ? array[0] += 1 : array[1] += num)
+  input == null || input.length < 1 ? [] : input.forEach(num => num > 0 ? array[0] += 1 : array[1] += num);
+  console.log(array)
   return array
 }
 
 
 
-// Why didn't creating just an empty array work? - [0,0] must deep equal [] fml
+let testData = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15];
+countPosNeg(testData)
 
-// let array = [];
-//   for (let item in input)
-//     input[item] >= 0 ? input[item] += array[0] : input[item] += array[1];
-//   return array
+let testData2 = [null]
+countPosNeg(testData2)
+
+
+// Why didn't creating just an empty array work? - [0,0] must deep equal [] fml
+// Yet again... read the bloody question. "If the input is an empty array or is null, return an empty array!!!"
+// can't initialise index's from an empty array NaN? isnt an empty array undefined length?
+
 
 // input.forEach(num => num > 0 ? newArray[0] += num : newArray[1] += num)
 
@@ -25,3 +31,5 @@ export function countPosNeg(input) {
 //     } else {
 //       newArray[1] += input[num];
 //     }
+
+
