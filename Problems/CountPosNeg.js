@@ -1,4 +1,5 @@
 //Array sum of positive & negative
+//Actually was count of positive and sum of negative... RTFQ!
 
 export function countPosNeg(input) {
   let array = [0,0]
@@ -6,10 +7,9 @@ export function countPosNeg(input) {
   return array
 }
 
-let testData = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15];
-countPosNeg(testData);
 
-// input.forEach()           //uses 'index' and 'element'
+
+// Why didn't creating just an empty array work? - [0,0] must deep equal [] fml
 
 // let array = [];
 //   for (let item in input)
