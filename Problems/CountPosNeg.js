@@ -2,12 +2,7 @@
 
 export function countPosNeg(input) {
   let array = [0,0]
-  for (let num in input)
-  if (input[num] > 0) {
-          array[0] += 1;
-        } else {
-          array[1] += input[num];
-        }
+  input.forEach(num => num > 0 ? array[0] += 1 : array[1] += num)
   return array
 }
 
