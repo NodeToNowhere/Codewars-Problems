@@ -13,6 +13,10 @@ export function countPosNeg(input) {
   }
 }
 
+function countPositivesSumNegatives(input) {
+  return input && input.length ? [input.filter(p => p > 0).length, input.filter(n => n < 0).reduce((a, b) => a + b, 0)] : [];
+} //CodeWar solution to read through
+
 // resolving input to true as a way of filtering null or NaN
 // input.length != 0 - nice
 
