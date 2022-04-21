@@ -5,7 +5,7 @@ and you shall find a way around or through it. If nothing within you stays rigid
 outward things will disclose themselves.
 
 > Empty your mind, be formless. Shapeless, like water. If you put water into a cup,
-it becomes the cup. You put water into a bottle and it becomes the bottle.
-You put it in a teapot, it becomes the teapot. Now, water can flow or it can crash. Be water, my friend.”
+it becomes the cup. You put water into a bottle and it becomes the bottle. You put it in a teapot,
+it becomes the teapot. Now, water can flow or it can crash. Be water, my friend.” ― Bruce Lee 
 
-> ![Be like Bruce](https://images.gr-assets.com/authors/1454507945p4/32579.jpg) ― Bruce Lee 
+> ![Be like Bruce](https://images.gr-assets.com/authors/1454507945p4/32579.jpg)
