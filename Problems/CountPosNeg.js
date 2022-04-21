@@ -2,25 +2,25 @@
 //Actually was count of positive and sum of negative... RTFQ!
 
 export function countPosNeg(input) {
-  let array = [0,0]
-  input == null || input.length < 1 ? [] : input.forEach(num => num > 0 ? array[0] += 1 : array[1] += num);
-  console.log(array)
-  return array
+  if (input && input.length) {
+    let count = 0
+    let sum = 0
+    input.forEach(num => num > 0 ? count++ : sum += num)
+    return [count, sum]
+  }
+  else{
+    return []
+  }
 }
 
+// resolving input to true as a way of filtering null or NaN
+// input.length != 0 - nice
 
 
-let testData = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15];
-countPosNeg(testData)
-
-let testData2 = [null]
-countPosNeg(testData2)
-
-
-// Why didn't creating just an empty array work? - [0,0] must deep equal [] fml
+// Can't return within turnary - return is a statement -> ternary/expressions
+// Can return result though
+// Creating array and assigning to index - why?
 // Yet again... read the bloody question. "If the input is an empty array or is null, return an empty array!!!"
-// can't initialise index's from an empty array NaN? isnt an empty array undefined length?
-
 
 // input.forEach(num => num > 0 ? newArray[0] += num : newArray[1] += num)
 
@@ -32,4 +32,15 @@ countPosNeg(testData2)
 //       newArray[1] += input[num];
 //     }
 
+// let array = [0,0]
+//   input == null || input.length < 1 ? [] : input.forEach(num => num > 0 ?    array[0] += 1 : array[1] += num);
+//   console.log(array)
+//   return array
 
+// if (input.includes(null) || input.length < 1) {
+//   return []
+// } else {
+//   const array = [0,0]
+//   input.forEach((num) => (num > 0 ? (array[0] += 1) : (array[1] += num)));
+//   return array
+// }
