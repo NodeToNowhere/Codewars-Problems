@@ -7,16 +7,12 @@
 
 export const highLow = nums => `${Math.max(...nums.split(' '))} ${Math.min(...nums.split(' '))}`
 
-console.log(highLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4"))
 
-
-
-
-// let high = Math.min(...nums.split(" "))
+// let high = Math.min(...nums.split(" ")) //passed
 // let low = Math.max(...nums.split(" "))
 // return(`${low} ${high}`)
 
-// // function highLow(nums){
+// // function highLow(nums){  //initial
 //     let high
 //     let low
 //     split nums into array
