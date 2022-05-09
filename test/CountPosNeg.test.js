@@ -1,4 +1,6 @@
-import { countPosNeg } from "../Problems/CountPosNeg.js";
+import {
+  countPosNeg
+} from "../Problems/CountPosNeg.js";
 import chai from "chai";
 const assert = chai.assert;
 chai.config.truncateThreshold = 0;
@@ -32,4 +34,3 @@ it("Testing for empty", () => {
   let expected = [];
   assert.deepEqual(actual, expected);
 });
-

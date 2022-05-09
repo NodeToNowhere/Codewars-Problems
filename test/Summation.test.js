@@ -1,11 +1,12 @@
-import { summation } from '../Problems/Summation.js';
+import {
+  summation
+} from '../Problems/Summation.js';
 import chai from 'chai';
 const assert = chai.assert;
 
 describe('summation', function () {
-    it('should return the correct total', function () {
-      assert.strictEqual(summation(1), 1)
-      assert.strictEqual(summation(8), 36)
-    })
+  it('should return the correct total', function () {
+    assert.strictEqual(summation(1), 1)
+    assert.strictEqual(summation(8), 36)
   })
-  
+})

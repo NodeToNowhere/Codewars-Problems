@@ -1,4 +1,6 @@
-import { even_or_odd } from '../Problems/EvenOdd.js';
+import {
+  even_or_odd
+} from '../Problems/EvenOdd.js';
 import chai from 'chai';
 const assert = chai.assert;
 
@@ -7,8 +9,8 @@ const assert = chai.assert;
 // }
 
 
-describe("evenOdd tests",() => {
-  
+describe("evenOdd tests", () => {
+
   it("2 is even", () => {
     assert.strictEqual(even_or_odd(2), "Even");
   });
@@ -34,15 +36,15 @@ describe("evenOdd tests",() => {
 //       _ => [ sign * (~~(Math.random() * 500) * 2 + odd), odd ? "Odd" : "Even"]
 //     );
 //   }
-  
+
 //   let generateTestCases = () => [
 //     ...generateCases(0, 1, 10),
 //     ...generateCases(0,-1, 10),
 //     ...generateCases(1, 1, 10),
 //     ...generateCases(1,-1, 10),
 //   ];
-  
-  
+
+
 //   let cases = _.shuffle(generateTestCases());
 //   for(let [input, expected] of cases) {
 //     it(`Should return "${expected}" for ${input}`, () => {

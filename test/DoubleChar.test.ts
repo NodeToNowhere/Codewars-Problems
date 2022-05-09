@@ -1,7 +1,6 @@
-import { doubleChar } from '../Problems/DoubleChar';
-import chai from 'chai';
+import { doubleChar } from "../Problems/DoubleChar";
+import chai from "chai";
 const assert = chai.assert;
-
 
 describe("doubleChar", () => {
   it("works for some examples", () => {

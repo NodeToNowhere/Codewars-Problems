@@ -1,7 +1,9 @@
-import {reverseWords} from "../Problems/ReverseWordInString.js"
+import {
+  reverseWords
+} from "../Problems/ReverseWordInString.js"
 import chai from "chai";
 const assert = chai.assert;
-chai.config.truncateThreshold=0;
+chai.config.truncateThreshold = 0;
 
 describe("Basic tests", () => {
   it("Testing for fixed tests", () => {

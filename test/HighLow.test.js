@@ -1,7 +1,9 @@
-import { highLow } from '../Problems/HighLow.js';
+import {
+  highLow
+} from '../Problems/HighLow.js';
 import chai from 'chai';
 const assert = chai.assert;
-chai.config.truncateThreshold=0;
+chai.config.truncateThreshold = 0;
 
 describe("Tests", () => {
   it("Test 1", () => {

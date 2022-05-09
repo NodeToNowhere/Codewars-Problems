@@ -1,4 +1,6 @@
-import { reverse } from "../Problems/Reverse.js";
+import {
+  reverse
+} from "../Problems/Reverse.js";
 import chai from "chai";
 const assert = chai.assert;
 
@@ -10,4 +12,4 @@ describe("Reverse tests", () => {
     assert.strictEqual(reverse(''), '');
     assert.strictEqual(reverse('h'), 'h');
   });
-});  
+});

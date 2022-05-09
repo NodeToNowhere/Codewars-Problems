@@ -7,8 +7,7 @@ export function countPosNeg(input) {
     let sum = 0
     input.forEach(num => num > 0 ? count++ : sum += num)
     return [count, sum]
-  }
-  else{
+  } else {
     return []
   }
 }

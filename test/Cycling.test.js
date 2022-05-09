@@ -1,4 +1,6 @@
-import { litres } from "../Problems/Cycling.js";
+import {
+  litres
+} from "../Problems/Cycling.js";
 import chai from 'chai';
 const assert = chai.assert;
 
